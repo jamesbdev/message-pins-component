@@ -20,15 +20,15 @@ h1, h2 {
 }
 
 .icon-close {
-  background-color: red;
+  background-color: rgb(230, 73, 73);
 }
 
 .icon-minimize {
-  background-color: yellow;
+  background-color: rgb(237, 190, 36);
 }
 
 .icon-maximize {
-  background-color: green;
+  background-color: rgb(93, 214, 93);
 }
 
 .windows-icons span {
