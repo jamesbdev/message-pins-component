@@ -30,6 +30,23 @@ h1, h2 {
   border-radius: 0.5em;
 }
 
+.text-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  gap: 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.text-container h3 {
+  margin: 0;  
+}
+
+.text-container p {
+  margin: 0;
+}
+
 /* chat header styling */
 
 .header-container {
@@ -53,10 +70,24 @@ h1, h2 {
 }
 
 .color-thumbnail {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: aqua;
+  flex-basis: 2rem;
+}
+
+@media (min-width: 750px) {
+  .chat-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .chat-container {
+    width: 60%;
+  }
 }
 
 

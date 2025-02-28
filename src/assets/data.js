@@ -1,7 +1,7 @@
 const data = [
   {
     name: "Julia S",
-    message: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus aliquet eget est in convallis. Donec tempus tortor finibus diam tincidunt accumsan. Morbi eros nibh, rutrum sit amet mi at, porttitor dignissim quam.",
+    message: "Lorem ipsum dolor sit amet, consectetur",
     color: "#FF697D",
     borderColor: "#A62A41"
   },

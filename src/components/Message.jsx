@@ -8,8 +8,11 @@ const Message = (props) => {
         <div className="color-thumbnail">
 
         </div>
-        <h3>{props.name}</h3>
-        <p>{props.message}</p>
+        <div className="text-container">
+          <h3>{props.name}</h3>
+          <p>{props.message}</p>
+        </div>
+       
      </div>
     </>
   )
