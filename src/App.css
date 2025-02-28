@@ -2,23 +2,51 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  /* text-align: center; */
 }
 
 h1, h2 {
   color: white;
 }
 
+.header-container h2 {
+  font-size: 2rem;
+}
+
+/* windows icons */ 
+
+.windows-icons {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.icon-close {
+  background-color: red;
+}
+
+.icon-minimize {
+  background-color: yellow;
+}
+
+.icon-maximize {
+  background-color: green;
+}
+
+.windows-icons span {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 /* container */
 
 .chat-container {
   display: flex;
   flex-direction: column;
-  height: 70vh;
-  background-color: rgb(67, 66, 65);
+  height: 100vh;
+  background-color: rgb(45, 44, 44);
   border-radius: 1em;
-  padding: 1em;
+  padding: 2rem;
 }
 
 .search input {
@@ -53,7 +81,7 @@ h1, h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 0 1em;
 }
 
 .send-message-btn {
@@ -67,14 +95,34 @@ h1, h2 {
   display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
 }
 
 .color-thumbnail {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   background-color: aqua;
-  flex-basis: 2rem;
+  border-color: rgb(4, 126, 126);
+  border-width: 4px;
+  border-style: solid;
+  flex-basis: 3rem;
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  flex-basis: 3rem;
+}
+
+.menu-icon span {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 @media (min-width: 750px) {

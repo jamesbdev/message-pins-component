@@ -12,6 +12,11 @@ const Message = (props) => {
           <h3>{props.name}</h3>
           <p>{props.message}</p>
         </div>
+        <div className="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
        
      </div>
     </>
