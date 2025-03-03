@@ -2,8 +2,8 @@ const MessageModal = (props) => {
     return (
         <div className="message-menu" style={{display: props.showMenu ? "block" : "none"}}>
         <ul>
-          <li>Delete message</li>
-          <li>Pin message</li>
+          <li>X delete message</li>
+          <li><span className="pin-icon">V</span> pin message</li>
         </ul>
       </div>
     )
