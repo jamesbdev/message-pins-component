@@ -51,9 +51,9 @@ h1, h2 {
 
 .search input {
   padding: 0.5em;
-  margin: 1em;
-  width: 100%;
-  max-width: 20em;
+  width: 95%;
+  height: 1.5rem;
+  padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.5em;
 }
@@ -62,9 +62,7 @@ h1, h2 {
   display: flex;
   flex-direction: column;
   flex-basis: 70%;
-  gap: 1rem;
   color: white;
-  margin-bottom: 1rem;
 }
 
 .text-container h3 {
@@ -81,7 +79,6 @@ h1, h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1em;
 }
 
 .send-message-btn {
@@ -97,6 +94,10 @@ h1, h2 {
   align-items: center;
   justify-content: space-between;
   margin-top: 1.5rem;
+  background-color: rgba(107, 104, 104, 0.87);
+  border-radius: 1.5rem;
+  padding: 1rem;
+  position: relative;
 }
 
 .color-thumbnail {
@@ -123,6 +124,32 @@ h1, h2 {
   height: 6px;
   background-color: white;
   border-radius: 20px;
+}
+
+.message-menu {
+  position: absolute;
+  top: 0;
+  right: -35px;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  z-index: 10;
+}
+
+.message-menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.message-menu ul li {
+  background-color: rgb(57, 56, 56);
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.message-menu ul li:hover {
+  background-color: rgb(148, 53, 53);
+  border-color: rgb(239, 53, 53)
 }
 
 @media (min-width: 750px) {
