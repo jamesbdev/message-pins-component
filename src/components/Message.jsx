@@ -4,8 +4,9 @@ import { useState } from "react";
 import MessageModal from "./MessageModal";
 
 const Message = (props) => {
+  //set state to show/hide menu
   const [showMenu, setShowMenu] = useState(false);
-
+ 
 
   return (
     <>
